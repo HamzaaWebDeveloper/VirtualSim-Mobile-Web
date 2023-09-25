@@ -1,0 +1,966 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Signika+Negative:wght@700&family=Urbanist:wght@800&display=swap');
+/* navbar */
+.navbar{
+    background-color: black ;
+    padding: 0px 20px;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+}
+
+/* toggle icon */
+
+.navbar-toggler{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+.navbar-toggler,.navbar-toggler:focus,.navbar-toggler:active,.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span{
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar{
+    margin-top: 0px;
+}
+
+
+.navbar-toggler .top-bar{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+
+.navbar-toggler .middle-bar{
+     opacity: 0;
+     filter: alpha(opacity=0);
+}
+
+
+.navbar-toggler .bottom-bar{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+/* end */
+.nav-link{
+    color: white;
+    padding: 14px ;
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+
+
+.bi-perso-fill{
+    height: 60px;
+}
+
+
+
+
+
+/* nav end */
+
+
+
+
+
+/* body */
+
+
+
+
+section{
+    background-color: #00ceb3;
+}
+
+
+.text-size{
+    margin: 0;
+    font-size: 110px;
+    font-family: 'Urbanist', sans-serif;
+    color: black;
+    
+}
+
+.text-small{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-link{
+    font-size: 15px;
+    font-family: cursive;
+}
+
+
+
+.btn-1{
+   background-color: #dcb61c;
+   color: black ;
+   font-family:'Urbanist', sans-serif ;
+   font-size: 23px;
+   font-weight: bold;
+   border-radius: 35px;
+   border: 2px solid black;
+   border-bottom: 6px solid black;
+   width: 250px;
+   height: 50px;
+}
+
+.btn-1:hover{
+    background-color: wheat;
+color: black;
+
+}
+
+.btn-3{
+    background-color: white;
+   color: black ;
+   font-family:'Urbanist', sans-serif ;
+   font-size: 23px;
+   font-weight: bold;
+   border-radius: 35px;
+   border: 2px solid black;
+   border-bottom: 6px solid black;
+   width: 250px;
+   height: 50px;
+}
+
+.btn-3:hover{
+    color: black;
+}
+
+/* carousel */
+
+
+
+
+
+
+
+.fs{
+    font-size: 14px;
+    color: black;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev{
+   width: 50px;
+   height: 50px;
+   background-color: black ;
+   top: calc(50% - 25px);
+
+    border-radius: 25px;
+}
+
+.alink{
+    color: #00528a;
+    font-size:18px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* end */
+
+
+/* short banner */
+
+.width{
+    width: 1200px;
+}
+/* end */
+
+
+
+/* Mid */
+
+.mid-txt{
+    font-size: 65px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+
+.border1{
+    color: black;
+    border: 2px solid black;
+    padding: 8px 26px;
+    font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    
+}
+
+.border1:hover{
+background-color: 
+#eeeeee;
+}
+
+
+.border2{
+    color: black;
+    border: 2px solid black;
+    margin: 0px;
+    padding: 8px 26px;
+    font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}
+
+.border2:hover{
+    background-color: 
+    #eeeeee;
+    }
+    
+
+
+    /* end */
+
+
+/* cards */
+
+
+
+.card{
+    border: 0px;
+    background-color: 
+    #f2f2f2;
+}
+
+.card-title{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+.circle {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #faddd7; 
+    
+  }
+
+  .circle2 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #37517e; 
+  
+  }
+
+  .circle3 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #232a31; 
+    
+  }
+
+  .circle4 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #faf6f2; 
+    
+  }
+
+  .circle5 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #bf1818; 
+    
+  }
+
+  .circle6 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #576856; 
+  
+  }
+
+  .horizontal-line {
+    border: none;
+    height: 10px;
+    background-color: #000; 
+  }
+  
+
+.fw-normal{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text{
+    color: black;
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.vertical-line {
+    width: 5px;
+    height: 80px; 
+    background-color: lightseagreen;
+  }
+
+
+
+  .row1 {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+ .text1{
+    font-size: 15px;
+ }
+  
+.curre{
+    font-size: 17px;
+}
+
+.curre-sec{
+    font-size: 14px;
+}
+
+.horizontal-line {
+    border: none;
+    height: 10px;
+    background-color: #000;     
+  }
+
+  .stock{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .button{
+    margin-top:130px ;
+    border-radius: 0px;
+    background-color: #2f2e31 ;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    
+  }
+
+  .button:focus,
+.button:active,
+.button:hover {
+  outline: none;
+  box-shadow: none;
+}
+
+  .button:hover{
+    background-color: #2f2e31;
+    color: white;
+  }
+
+  
+  .circles1 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff2cc; 
+  
+  }
+
+  .circles2 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: 
+    #a5a8c4; 
+  
+  }
+  .circles3 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #2f2e31; 
+  
+  }
+  .circles4 {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #468f77; 
+  
+  }
+
+
+  .button2{
+    
+    border-radius: 0px;
+    background-color: #2f2e31 ;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    
+  }
+
+
+  .btn-4{
+    background-color: white;
+   color: black ;
+   font-family:'Urbanist', sans-serif ;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 20px;
+   border: 2px solid black;
+   border-bottom: 7px solid black;
+   width: 170px;
+   height: 40px;
+}
+
+.btn-4:hover{
+    color: black;
+}
+
+/* end */
+
+
+/* bottom banner section */
+
+.bottom-section{
+  background-color: #eb5f8e;
+}
+
+.bottom-sec-text{
+letter-spacing: 2px;
+  font-size: 55px;
+  font-weight: bolder;
+  color: black;
+  font-family: 'Urbanist', sans-serif;
+
+
+}
+
+.card2{
+  background-color: #ffffff;
+  border-radius: 0%;
+}
+
+.card-subtitle{
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  font-family: 'Urbanist', sans-serif;
+}
+
+
+.card-subtitle3{
+ 
+  font-size: 26px;
+  font-weight: bolder;
+  color: black;
+  font-family: 'Urbanist', sans-serif;
+
+}
+
+.card-subtitle4{
+ 
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  font-family: 'Urbanist', sans-serif;
+
+}
+
+.card-text{
+  color: black;
+  font-size: 18px;
+}
+
+/* END */
+
+/* AFTER CARD */
+
+
+.after-card-txt{
+
+  font-family: 'Signika Negative', sans-serif;
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.after-card-txt-2{
+  font-size: 18px;
+ 
+
+}
+
+.after-card-txt-3{
+  font-size: 18px;
+   font-family: 'Signika Negative', sans-serif;
+}
+
+/* end */
+
+
+
+
+/* accordian section */
+
+
+
+.accordian{
+  background-color: white;
+}
+
+
+.accordian-head{
+  font-size:65px ;
+  font-family: 'Urbanist', sans-serif;
+}
+
+
+
+
+.accordion {
+  margin-bottom: 1rem;
+  width: 60 spx;
+ 
+}
+
+.accordion-body{
+
+  padding: 8px 8px;
+}
+
+
+.accordion-item:hover{
+  background-color: #ebe2d3;
+}
+
+.bord{
+  border: 2px solid black;
+}
+
+
+/* END */
+
+
+
+/* footer */
+
+
+
+.Foot-color{
+  background-color: black;
+}
+
+
+.twi{
+
+  color: white;
+width: 40px;
+border: 3px white solid;
+ padding: 14px 14px;
+ transition: transform 0.3 ease;
+}
+
+
+.twi:hover{
+  color: black;
+  background-color: white;
+  transform: scale(0.8);
+  transition: 1s;
+}
+
+
+
+.foot-head1{
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+}
+
+
+.link1{
+text-decoration: none;
+ color: white;
+ font-weight: normal;
+ margin-bottom: 100px;
+
+}
+
+.link1:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+
+.foot-bottom1{
+  color: white;
+  font-size: 17px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+
+.link2{
+  text-decoration: none;
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+}
+
+
+.link2:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.foot-text{
+  color: white;
+  font-size: 14px;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+/* End */
+
+
+
+/* Product css */
+
+.Pro-head{
+  font-family:'Urbanist', sans-serif ;
+  font-size: 60px;
+  color: #000;
+}
+
+
+.form-check-label{
+  color: black;
+  font-weight: bold;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+
+
+.form-check-input{
+  border-radius: 0px;
+  color: black;
+}
+
+
+
+.custom-checkbox input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  outline: none;
+  background-color: white;
+  position: relative;
+
+}
+
+.custom-checkbox input[type="checkbox"]:checked::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  margin-top: -5px;
+  margin-left: -3px;
+}
+
+
+
+
+
+
+.modal-content {
+  border-radius: 0;
+}
+
+
+.modal-btn1{
+  background-color: 
+  #2f2e31;
+  color: white;
+  width: 145px;
+  height: 45px;
+  font-size: 18px;
+  font-family:'Urbanist', sans-serif ;
+  border: 0px;
+  border-radius: 0;
+
+}
+
+.modal-btn1:hover{
+  color: white;
+}
+
+.modal-dialog {
+  max-width: 600px; 
+}
+
+
+.modal-title{
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+
+
+.horizontal-line {
+  width: 100%;
+  height: 2px;
+  background-color: black;}
+
+
+
+.mod-btn1{
+  
+  border: #a5a8c4 3px solid;
+  border-radius: 0px;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family:'Urbanist', sans-serif ;
+
+  
+}
+
+
+
+
+
+
+.mod-btn1:hover{
+background-color: #eeeeee;
+
+}
+
+
+.mod-btn-2{
+background-color: #fcc31e;
+border-radius: 30px;
+width: 170px;
+height: 50px;
+padding: 0px 8px;
+border: 2px solid black;
+border-bottom: 7px solid black;
+font-size: 24px;
+font-family:'Urbanist', sans-serif ;
+font-weight: bolder;
+color: #000;
+}
+
+
+
+/* responsive */
+
+
+
+
+@media (max-width: 768px) {
+  .card2 {
+    width: 18rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card2 {
+    width: 300px;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .border1 {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .border2 {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+
+
+ @media (max-width: 768px) {
+  .button {
+    margin-top: 160px;
+  }
+} 
+
+
+@media (max-width: 820px) {
+  .button {
+    margin-top: 165px;
+  }
+} 
+
+@media (max-width: 912px) {
+  .button {
+    margin-top: 165px;
+  }
+} 
+
+
+
+@media (max-width: 768px) {
+    .text-size {
+      font-size: 70px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .text-size {
+      font-size: 50px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .mid-txt {
+      font-size: 45px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .mid-txt {
+      font-size: 25px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .modal-btn1 {
+margin-top: 25px;      
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .mod-btn1 {
+  width: 200px;
+    }
+  }
+
+
+  @media (max-width: 425px) {
+    .mod-btn1 {
+  width: 200px;
+    }
+  }
+
+
+  @media (max-width: 375px) {
+    .mod-btn1 {
+  width: 200px;
+    }
+  }
+
+
+  @media (max-width: 320px) {
+    .mod-btn1 {
+  width: 200px;
+    }
+  }
+
+
+/* responsive end */
+
+
+
+
+
+
+
+
+
